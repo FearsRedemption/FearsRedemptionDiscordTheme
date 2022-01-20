@@ -1,0 +1,112 @@
+    @font-face {
+      font-family: whiterabbit;
+      src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
+  }
+  
+  :root{--primary:rgb(0, 255, 255);
+      --primary2:rgb(23,162,178);
+      --primary2-2:23, 162, 178;
+      --dark:rgb(14, 14, 14);
+      --medium:rgb(16, 18, 21);
+      --light:rgb(24, 25, 27);
+      --chancategory:rgb(31, 219, 246);
+      --prefix:rgb(255, 0, 236);
+      --fontcolor:rgb(131, 176, 242);
+      --mentions:rgb(255, 128, 0);
+      --timestamp:rgb(114, 118, 125);
+      --timestamprgb:114,118,125;
+      --dots:rgb(76, 79, 80);
+      --playing:rgb(34, 34, 34);
+      --lime:rgb(30, 255, 0);
+      --yellow:rgb(255, 216, 99);
+      --yellowrgb:255, 216, 99;
+      --primaryrgb:0,255,255;
+      --primary2rgb:23,162,178;
+      --round1:0%; /* 0% for square | 50% for circle */
+      --gbcolor:red;
+      --gbcolor1:blue;
+      --version:"1.2.8";
+    
+      --font-primary: whiterabbit;
+      --font-display: whiterabbit;
+      --font-code: whiterabbit;
+    }
+
+.theme-dark {
+    --header-primary: var(--primary);
+    --header-secondary:var(--primary2);
+    --text-normal: var(--fontcolor);
+    --text-muted: var(--timestamp);
+    --text-link: var(--lime);
+
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+
+    --interactive-normal: var(--timestamp);
+    --interactive-hover: var(--primary);
+    --interactive-active: var(--primary);
+    --interactive-muted: var(--primary2);
+    --background-primary: var(--light);
+    --background-secondary: var(--medium);
+    --background-secondary-alt: var(--medium);
+    --background-tertiary: var(--dark);
+    --background-accent: var(--timestamp);
+    --background-floating: var(--dark);
+    --background-nested-floating: var(--dark);
+    
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+    
+    --scrollbar-thin-thumb: var(--primary);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--primary);
+    --scrollbar-auto-track: var(--dark);
+
+    --scrollbar-auto-scrollbar-color-thumb: var(--primary);
+    --scrollbar-auto-scrollbar-color-track: var(--dark);
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --channels-default: var(--dots);
+    --guild-header-text-shadow: 0 1px 1px var(--lime);
+    --channeltextarea-background: var(--dark);
+    --activity-card-background: var(--light);
+    --textbox-markdown-syntax: red;
+    --spoiler-revealed-background: var(--dark);
+    --spoiler-hidden-background: var(--light);
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+.username-h_Y3Us {
+    color: var(--lime);
+}
