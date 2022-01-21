@@ -4,8 +4,8 @@
 }
   
 :root{
-	--black: #000000;
-	--pink: #FF10F0;
+	--fadeoutTest: #000000;
+	--fadeinTest: #F4FF00;
 	--greyDark: #17202A;
     --greyMed: #212F3D;
     --greyLight: #2C3E50;
@@ -43,11 +43,11 @@
 }
 
 .theme-dark {
-	--header-primary: var(--purMed);
-	--header-secondary:var(--black);
-	--text-normal: var(--black);
-	--text-muted: var(--black);
-	--text-link: var(--black);
+	--header-primary: var(--fadeinTest);
+	--header-secondary:var(--fadeoutTest);
+	--text-normal: var(--fadeoutTest);
+	--text-muted: var(--fadeoutTest);
+	--text-link: var(--fadeoutTest);
 
 	--text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
 	--text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
@@ -55,17 +55,17 @@
 	--text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 	--text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
-	--interactive-normal: var(--black);
-	--interactive-hover: var(--black);
-	--interactive-active: var(--black);
-	--interactive-muted: var(--black);
-	--background-primary: var(--black);
-	--background-secondary: var(--black);
-	--background-secondary-alt: var(--black);
-	--background-tertiary: var(--black);
-	--background-accent: var(--black);
-	--background-floating: var(--black);
-	--background-nested-floating: var(--black);
+	--interactive-normal: var(--fadeoutTest);
+	--interactive-hover: var(--fadeoutTest);
+	--interactive-active: var(--fadeoutTest);
+	--interactive-muted: var(--fadeoutTest);
+	--background-primary: var(--fadeoutTest);
+	--background-secondary: var(--fadeoutTest);
+	--background-secondary-alt: var(--fadeoutTest);
+	--background-tertiary: var(--fadeoutTest);
+	--background-accent: var(--fadeoutTest);
+	--background-floating: var(--fadeoutTest);
+	--background-nested-floating: var(--fadeoutTest);
 
 	--background-mobile-primary: #36393f;
 	--background-mobile-secondary: #2f3136;
@@ -81,25 +81,25 @@
 	--info-help-text: #fff;
 	--status-warning-text: #000;
 
-	--scrollbar-thin-thumb: var(--black);
+	--scrollbar-thin-thumb: var(--fadeoutTest);
 	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: var(--black);
-	--scrollbar-auto-track: var(--black);
+	--scrollbar-auto-thumb: var(--fadeoutTest);
+	--scrollbar-auto-track: var(--fadeoutTest);
 
-	--scrollbar-auto-scrollbar-color-thumb: var(--black);
-	--scrollbar-auto-scrollbar-color-track: var(--black);
+	--scrollbar-auto-scrollbar-color-thumb: var(--fadeoutTest);
+	--scrollbar-auto-scrollbar-color-track: var(--fadeoutTest);
 	--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
 	--elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
 	--elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
 	--elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-	--logo-primary: var(--black);
+	--logo-primary: var(--fadeoutTest);
 	--control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 	--control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 	--background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
 	--background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
 	--background-message-hover: rgba(4,4,5,0.07);
 	--channels-default: var(--dots);
-	--guild-header-text-shadow: 0 1px 1px var(--black);
+	--guild-header-text-shadow: 0 1px 1px var(--fadeoutTest);
 	--channeltextarea-background: var(--dark);
 	--activity-card-background: var(--light);
 	--textbox-markdown-syntax: red;
@@ -118,5 +118,5 @@
 }
 
 .username-h_Y3Us {
-	color: var(--black);
+	color: var(--fadeoutTest);
 }
