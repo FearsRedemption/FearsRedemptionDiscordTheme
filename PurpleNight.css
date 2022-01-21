@@ -10,9 +10,9 @@
   
 :root{
 	--fadeoutTest: #000000;
-	--test1: #F4FF00; /*BRIGHT YELLOW*/
-	--test2: #00FFFF; /*CYAN*/
-	--test3: #FF007F; /*BRIGHT PINK*/
+	--testYellow: #F4FF00;
+	--testCyan: #00FFFF;
+	--testPink: #FF007F;
 	/* 
 		NOTES
 		D = Main Color
@@ -93,15 +93,15 @@
 	--text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 	--text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
-	--interactive-normal: var(--test1);
-	--interactive-hover: var(--test2);
-	--interactive-active: var(--test3);
+	--interactive-normal: var(--yellowL);
+	--interactive-hover: var(--violetD);
+	--interactive-active: var(--redD);
 	--interactive-muted: var(--fadeoutTest);
-	--background-primary: var(--fadeoutTest);
-	--background-secondary: var(--fadeoutTest);
-	--background-secondary-alt: var(--fadeoutTest);
-	--background-tertiary: var(--fadeoutTest);
-	--background-accent: var(--fadeoutTest);
+	--background-primary: var(--blackD);
+	--background-secondary: var(--blueD);
+	--background-secondary-alt: var(--testPink);
+	--background-tertiary: var(--testCyan);
+	--background-accent: var(--testYellow);
 	--background-floating: var(--fadeoutTest);
 	--background-nested-floating: var(--fadeoutTest);
 
