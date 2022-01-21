@@ -20,10 +20,15 @@
 		L = Lighter Fade
 	*/
 	
+	/* BLACK SHADES */
+	--blackD: #020003;
+	--blackM: #1B191C;
+	--blackL: #343235;
+	
 	/* CHINESE BLACK */
-	--blackD: #15041B;
-	--blackM: #2C1D32;
-	--blackL: #443649;
+	--purpleD: #15041B;
+	--purpleM: #2C1D32;
+	--purpleL: #443649;
 	
 	/* COSMIC COBALT */
 	--blueD: #333587;
@@ -94,13 +99,13 @@
 	--text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
 	--interactive-normal: var(--yellowL);
-	--interactive-hover: var(--violetD);
-	--interactive-active: var(--redD);
+	--interactive-hover: var(--redD);
+	--interactive-active: var(--yellowD);
 	--interactive-muted: var(--blueL);
 	--background-primary: var(--blackD);
-	--background-secondary: var(--blackD);
-	--background-secondary-alt: var(--blackD);
-	--background-tertiary: var(--blackD);
+	--background-secondary: var(--purpleD);
+	--background-secondary-alt: var(--purpleD);
+	--background-tertiary: var(--purpleD);
 	--background-accent: var(--yellowD);
 	--background-floating: var(--testPink);
 	--background-nested-floating: var(--testCyan);
