@@ -43,7 +43,7 @@
 }
 
 .theme-dark {
-	--header-primary: var(--pink);
+	--header-primary: var(--purMed);
 	--header-secondary:var(--black);
 	--text-normal: var(--black);
 	--text-muted: var(--black);
