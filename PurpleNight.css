@@ -10,16 +10,23 @@
   
 :root{
 	--fadeoutTest: #000000;
-	--test1: #F4FF00;
-	--test2: #00FFFF;
-	--test3: #FFCE00;
+	--test1: #F4FF00; /*PINK*/
+	--test2: #00FFFF; /*CYAN*/
+	--test3: #FFCE00; /*ORANGE*/
 	
+	/* GRAYS */
 	--greyDark: #17202A;
     --greyMed: #212F3D;
     --greyLight: #2C3E50;
+	/* PURPLES */
     --purDark: #4A235A;
     --purMed: #6C3483;
     --purLight: #8E44AD;
+	/* BLUES */
+	--bluDark: #234F5A;
+	--bluMed: #347383;
+	--bluLight: #4498AD;
+	
 	
 	--primary: #17202A;
 	--primary2: #8E44AD;
@@ -52,10 +59,10 @@
 
 .theme-dark {
 	--header-primary: var(--purLight);
-	--header-secondary:var(--test2);
-	--text-normal: var(--test3);
-	--text-muted: var(--fadeoutTest);
-	--text-link: var(--fadeoutTest);
+	--header-secondary:var(--purMed);
+	--text-normal: var(--purLight);
+	--text-muted: var(--purDark);
+	--text-link: var(--bluLight);
 
 	--text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
 	--text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
