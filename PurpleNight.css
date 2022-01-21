@@ -13,6 +13,42 @@
 	--test1: #F4FF00; /*PINK*/
 	--test2: #00FFFF; /*CYAN*/
 	--test3: #FFCE00; /*ORANGE*/
+	/* 
+		NOTES
+		D = Main Color
+		M = Medium Fade
+		L = Lighter Fade
+	*/
+	/* NEW COLOR SCHEME */
+	/* CHINESE BLACK */
+	--blackD: #15041B;
+	--blackM: #2C1D32;
+	--blackL: #443649;
+	
+	/* COSMIC COBALT */
+	--blueD: #333587;
+	--blueM: #474993;
+	--blueL: #5C5D9F;
+	
+	/* CADMIUM VIOLET */
+	--violetD: #8D3CA3;
+	--violetM: #9850AC;
+	--violetL: #A463B5;
+	
+	/* MEDIUM RED-VIOLET */
+	--redD: #BF3779;
+	--redM: #C54B86;
+	--redL: #CC5F94;
+	
+	/* BIG FOOT FEET (orange) */
+	--orangeD: #ED9161;
+	--orangeM: #EF9C71;
+	--orangeL: #F1A781;
+	
+	/* CRAYOLA'S ORANGE-YELLOW */
+	--yellowD: #FCC868;
+	--yellowM: #FCCE77;
+	--yellowL: #FDD386;
 	
 	/* GRAYS */
 	--greyDark: #17202A;
@@ -26,6 +62,8 @@
 	--bluDark: #234F5A;
 	--bluMed: #347383;
 	--bluLight: #4498AD;
+	
+	
 	
 	
 	--primary: #17202A;
@@ -58,11 +96,11 @@
 }
 
 .theme-dark {
-	--header-primary: var(--purLight);
-	--header-secondary:var(--purMed);
-	--text-normal: var(--purLight);
-	--text-muted: var(--purDark);
-	--text-link: var(--bluLight);
+	--header-primary: var(--blueD);
+	--header-secondary:var(--yellowD);
+	--text-normal: var(--violetM);
+	--text-muted: var(--violetL);
+	--text-link: var(--blueL);
 
 	--text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
 	--text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
@@ -133,5 +171,5 @@
 }
 
 .username-h_Y3Us {
-	color: var(--purLight);
+	color: var(--violetD);
 }
