@@ -5,7 +5,10 @@
   
 :root{
 	--fadeoutTest: #000000;
-	--fadeinTest: #F4FF00;
+	--test1: #F4FF00;
+	--test2: #00FFFF;
+	--test3: #FFCE00;
+	
 	--greyDark: #17202A;
     --greyMed: #212F3D;
     --greyLight: #2C3E50;
@@ -43,9 +46,9 @@
 }
 
 .theme-dark {
-	--header-primary: var(--fadeinTest);
-	--header-secondary:var(--fadeoutTest);
-	--text-normal: var(--fadeoutTest);
+	--header-primary: var(--test1);
+	--header-secondary:var(--test2);
+	--text-normal: var(--test3);
 	--text-muted: var(--fadeoutTest);
 	--text-link: var(--fadeoutTest);
 
