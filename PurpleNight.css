@@ -1,6 +1,11 @@
 @font-face {
-	font-family: whiterabbit;
-	src: url(https://raw.githubusercontent.com/iceededpple/hackmudtheme/master/whiterabbit-webfont.ttf);
+	font-family: hack;
+	src: url(https://raw.githack.com/FearsRedemption/FearsRedemptionDiscordTheme/main/fonts/Hack-Regular-webfont.ttf);
+}
+
+@font-face {
+	font-family: sourceCodePro;
+	src: url(https://raw.githack.com/FearsRedemption/FearsRedemptionDiscordTheme/main/fonts/SourceCodePro-Regular.ttf);
 }
   
 :root{
@@ -40,9 +45,9 @@
 	--gbcolor1:blue;
 	--version:"1.2.8";
 
-	--font-primary: whiterabbit;
-	--font-display: whiterabbit;
-	--font-code: whiterabbit;
+	--font-primary: hack;
+	--font-display: hack;
+	--font-code: sourceCodePro;
 }
 
 .theme-dark {
