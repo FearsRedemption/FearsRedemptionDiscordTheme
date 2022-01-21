@@ -46,7 +46,7 @@
 }
 
 .theme-dark {
-	--header-primary: var(--test1);
+	--header-primary: var(--purLight);
 	--header-secondary:var(--test2);
 	--text-normal: var(--test3);
 	--text-muted: var(--fadeoutTest);
