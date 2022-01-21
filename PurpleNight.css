@@ -96,14 +96,14 @@
 	--interactive-normal: var(--yellowL);
 	--interactive-hover: var(--violetD);
 	--interactive-active: var(--redD);
-	--interactive-muted: var(--fadeoutTest);
+	--interactive-muted: var(--blueL);
 	--background-primary: var(--blackD);
-	--background-secondary: var(--blueD);
-	--background-secondary-alt: var(--testPink);
-	--background-tertiary: var(--testCyan);
-	--background-accent: var(--testYellow);
-	--background-floating: var(--fadeoutTest);
-	--background-nested-floating: var(--fadeoutTest);
+	--background-secondary: var(--blackD);
+	--background-secondary-alt: var(--blackD);
+	--background-tertiary: var(--blackD);
+	--background-accent: var(--yellowD);
+	--background-floating: var(--testPink);
+	--background-nested-floating: var(--testCyan);
 
 	--background-mobile-primary: #36393f;
 	--background-mobile-secondary: #2f3136;
