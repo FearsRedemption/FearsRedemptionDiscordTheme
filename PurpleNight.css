@@ -10,8 +10,9 @@
   
 :root{
 	--fadeoutTest: #000000;
-	--test1: #F4FF00; /*PINK*/
+	--test1: #F4FF00; /*BRIGHT YELLOW*/
 	--test2: #00FFFF; /*CYAN*/
+	--test3: #FF007F; /*BRIGHT PINK*/
 	/* 
 		NOTES
 		D = Main Color
@@ -94,7 +95,7 @@
 
 	--interactive-normal: var(--test1);
 	--interactive-hover: var(--test2);
-	--interactive-active: var(--fadeoutTest);
+	--interactive-active: var(--test3);
 	--interactive-muted: var(--fadeoutTest);
 	--background-primary: var(--fadeoutTest);
 	--background-secondary: var(--fadeoutTest);
