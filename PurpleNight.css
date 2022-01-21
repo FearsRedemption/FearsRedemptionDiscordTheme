@@ -4,6 +4,8 @@
 }
   
 :root{
+	--black: #000000;
+	--pink: #FF10F0;
 	--greyDark: #17202A;
     --greyMed: #212F3D;
     --greyLight: #2C3E50;
@@ -41,11 +43,11 @@
 }
 
 .theme-dark {
-	--header-primary: var(--primary);
-	--header-secondary:var(--primary2);
-	--text-normal: var(--fontcolor);
-	--text-muted: var(--timestamp);
-	--text-link: var(--lime);
+	--header-primary: var(--pink);
+	--header-secondary:var(--black);
+	--text-normal: var(--black);
+	--text-muted: var(--black);
+	--text-link: var(--black);
 
 	--text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
 	--text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
@@ -53,17 +55,17 @@
 	--text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 	--text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
-	--interactive-normal: var(--timestamp);
-	--interactive-hover: var(--primary);
-	--interactive-active: var(--primary);
-	--interactive-muted: var(--primary2);
-	--background-primary: var(--light);
-	--background-secondary: var(--medium);
-	--background-secondary-alt: var(--medium);
-	--background-tertiary: var(--dark);
-	--background-accent: var(--timestamp);
-	--background-floating: var(--dark);
-	--background-nested-floating: var(--dark);
+	--interactive-normal: var(--black);
+	--interactive-hover: var(--black);
+	--interactive-active: var(--black);
+	--interactive-muted: var(--black);
+	--background-primary: var(--black);
+	--background-secondary: var(--black);
+	--background-secondary-alt: var(--black);
+	--background-tertiary: var(--black);
+	--background-accent: var(--black);
+	--background-floating: var(--black);
+	--background-nested-floating: var(--black);
 
 	--background-mobile-primary: #36393f;
 	--background-mobile-secondary: #2f3136;
@@ -79,25 +81,25 @@
 	--info-help-text: #fff;
 	--status-warning-text: #000;
 
-	--scrollbar-thin-thumb: var(--primary);
+	--scrollbar-thin-thumb: var(--black);
 	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: var(--primary);
-	--scrollbar-auto-track: var(--dark);
+	--scrollbar-auto-thumb: var(--black);
+	--scrollbar-auto-track: var(--black);
 
-	--scrollbar-auto-scrollbar-color-thumb: var(--primary);
-	--scrollbar-auto-scrollbar-color-track: var(--dark);
+	--scrollbar-auto-scrollbar-color-thumb: var(--black);
+	--scrollbar-auto-scrollbar-color-track: var(--black);
 	--elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
 	--elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
 	--elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
 	--elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-	--logo-primary: #fff;
+	--logo-primary: var(--black);
 	--control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 	--control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 	--background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
 	--background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
 	--background-message-hover: rgba(4,4,5,0.07);
 	--channels-default: var(--dots);
-	--guild-header-text-shadow: 0 1px 1px var(--lime);
+	--guild-header-text-shadow: 0 1px 1px var(--black);
 	--channeltextarea-background: var(--dark);
 	--activity-card-background: var(--light);
 	--textbox-markdown-syntax: red;
@@ -116,5 +118,5 @@
 }
 
 .username-h_Y3Us {
-	color: var(--lime);
+	color: var(--black);
 }
