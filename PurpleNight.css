@@ -96,11 +96,11 @@
 }
 
 .theme-dark {
-	--header-primary: var(--blueD);
-	--header-secondary:var(--yellowD);
-	--text-normal: var(--violetM);
-	--text-muted: var(--violetL);
-	--text-link: var(--blueL);
+	--header-primary: var(--violetD);
+	--header-secondary:var(--redD);
+	--text-normal: var(--orangeD);
+	--text-muted: var(--orangeL);
+	--text-link: var(--yellowD);
 
 	--text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
 	--text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
@@ -171,5 +171,5 @@
 }
 
 .username-h_Y3Us {
-	color: var(--violetD);
+	color: var(--redD);
 }
