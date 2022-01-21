@@ -12,14 +12,13 @@
 	--fadeoutTest: #000000;
 	--test1: #F4FF00; /*PINK*/
 	--test2: #00FFFF; /*CYAN*/
-	--test3: #FFCE00; /*ORANGE*/
 	/* 
 		NOTES
 		D = Main Color
 		M = Medium Fade
 		L = Lighter Fade
 	*/
-	/* NEW COLOR SCHEME */
+	
 	/* CHINESE BLACK */
 	--blackD: #15041B;
 	--blackM: #2C1D32;
@@ -48,24 +47,9 @@
 	/* CRAYOLA'S ORANGE-YELLOW */
 	--yellowD: #FCC868;
 	--yellowM: #FCCE77;
-	--yellowL: #FDD386;
+	--yellowL: #FDD386;	
 	
-	/* GRAYS */
-	--greyDark: #17202A;
-    --greyMed: #212F3D;
-    --greyLight: #2C3E50;
-	/* PURPLES */
-    --purDark: #4A235A;
-    --purMed: #6C3483;
-    --purLight: #8E44AD;
-	/* BLUES */
-	--bluDark: #234F5A;
-	--bluMed: #347383;
-	--bluLight: #4498AD;
-	
-	
-	
-	
+	/* EXTRA */
 	--primary: #17202A;
 	--primary2: #8E44AD;
 	--primary2-2:23, 162, 178;
@@ -108,8 +92,8 @@
 	--text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
 	--text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
-	--interactive-normal: var(--fadeoutTest);
-	--interactive-hover: var(--fadeoutTest);
+	--interactive-normal: var(--test1);
+	--interactive-hover: var(--test2);
 	--interactive-active: var(--fadeoutTest);
 	--interactive-muted: var(--fadeoutTest);
 	--background-primary: var(--fadeoutTest);
